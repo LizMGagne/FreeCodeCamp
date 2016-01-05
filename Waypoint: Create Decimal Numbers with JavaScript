@@ -1,0 +1,6 @@
+var ourDecimal = 5.7;
+var myDecimal = 4.8;
+
+// Only change code above this line.
+
+(function(){if(typeof myDecimal !== "undefined"){return myDecimal;}})();
