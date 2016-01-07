@@ -1,0 +1,12 @@
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+    var result = "";
+    // Your code below this line
+    var wordBlanks = new Array ("cat", "little", "hit", "slowly", "dog", "big", "ran", "quickly");
+result = wordBlanks.join();
+
+    // Your code above this line
+  return result;
+}
+
+// Change the words here to test your function
+wordBlanks("dog", "big", "ran", "quickly");
