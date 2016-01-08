@@ -1,0 +1,7 @@
+var myList = [["Limes", 6], ["Avocado", 3], ["Juice", 2], ["Black beans", 2], ["Gin", 1], ["Chips", 2], ["Onion dip", 4], ["Pie", 5], ["Eggs", 6]];
+
+var tacos = myList.slice(["Limes", 6], ["Avocado", 3], ["Black beans", 2]);
+var drinks = myList.slice(["Juice", 2], ["Gin", 1]);
+var snacks = myList.slice(["Chips", 2], ["Onion dip", 4]);
+var dessert = myList.slice(["Pie", 5]);
+var breakfast = myList.slice(["Eggs", 6]);
