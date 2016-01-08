@@ -1,0 +1,7 @@
+function myFunction() {
+  'use strict';
+  var myVar = "foo";
+  
+  console.log(myVar);
+}
+myFunction();
